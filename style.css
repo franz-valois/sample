@@ -1,0 +1,42 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-family: montserrat;
+}
+
+
+
+
+
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+  justify-content: center;
+
+}
+
+.flex-container > div{
+  background-color: white;
+  margin: 15% 25% 25% 25%;
+  padding: 10px ;
+  text-align: justify;
+  line-height: 170%;
+  font-weight: 5px;
+  border-style: groove;
+  justify-content: center;
+}
+
+.ParagraphID{
+  font-family: Montserrat;
+  font-size: 15px;
+
+}
+.ParagraphID #button{
+
+
+}
+.flex-container.ParagraphID#right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
